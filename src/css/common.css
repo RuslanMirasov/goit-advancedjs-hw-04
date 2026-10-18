@@ -62,6 +62,10 @@ body {
   padding: 8px 26px;
 }
 
+.button.hidden {
+  display: none;
+}
+
 .button:hover,
 .button:focus {
   background-color: var(--blue-hover);

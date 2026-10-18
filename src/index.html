@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-advancedjs-hw-03</title>
+    <title>goit-advancedjs-hw-04</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,9 +27,14 @@
         <button type="submit" class="button">Search</button>
       </form>
 
-      <span class="loader hidden"></span>
-
       <ul class="gallery"></ul>
+
+      <div class="load-more">
+        <span class="loader hidden"></span>
+        <button type="button" class="button hidden" data-load-more>
+          Load more
+        </button>
+      </div>
     </main>
     <script type="module" src="./main.js"></script>
   </body>

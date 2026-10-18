@@ -93,3 +93,13 @@
 .info-item span {
   line-height: 24px;
 }
+
+.load-more {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 32px;
+}
