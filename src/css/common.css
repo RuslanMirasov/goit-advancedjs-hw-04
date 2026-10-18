@@ -1,0 +1,73 @@
+:root {
+  --blue: #4e75ff;
+  --blue-hover: #6c8cff;
+  --red: #ff4e4e;
+  --red-hover: #ff7070;
+  --black: #2e2f42;
+  --dark: #000000;
+  --white: #ffffff;
+  --grey: #f6f6fe;
+  --grey-dark: #808080;
+}
+
+body {
+  display: block;
+  position: relative;
+  padding: 36px;
+  font-family:
+    'Montserrat',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  min-height: 100%;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.button {
+  font-family: 'Montserrat';
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition:
+    background-color 250ms ease 0s,
+    color 250ms ease 0s,
+    opacity 250ms ease 0s;
+}
+
+.button.red {
+  background-color: var(--red);
+  padding: 8px 26px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--blue-hover);
+}
+
+.button.red:hover,
+.button.red:focus {
+  background-color: var(--red-hover);
+}
